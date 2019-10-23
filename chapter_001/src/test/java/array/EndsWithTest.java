@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class EndsWithTest {
 
     @Test
-    public void whenStartWithPrefixThenTrue() {
+    public void whenEndsWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'l', 'o'};
         boolean result = EndsWith.endsWith(word, post);
@@ -16,7 +16,7 @@ public class EndsWithTest {
     }
 
     @Test
-    public void whenNotStartWithPrefixThenFalse() {
+    public void whenNotEndsWithPrefixThenFalse() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'l', 'a'};
         boolean result = EndsWith.endsWith(word, post);
