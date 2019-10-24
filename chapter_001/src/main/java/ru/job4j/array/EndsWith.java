@@ -7,11 +7,7 @@ public class EndsWith {
             if (word[word.length -1] != post[post.length - 1]) {
                 result = false;
             }
-            return result;
-
         }
-
-        return result;
+                 return result;
     }
 }
-
