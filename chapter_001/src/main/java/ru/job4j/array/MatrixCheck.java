@@ -9,10 +9,10 @@ public class MatrixCheck {
             for (int cell = 0; cell < board.length; cell++) {
                 char sign = board[row][cell];
                 System.out.print(sign);
-                if (board [row][cell]=='X') {
+                if (board [row][cell] == 'X') {
                    count1++;
                 }
-                if (board [cell][row]=='X') {
+                if (board [cell][row] == 'X') {
                     count2++;
                 }
                 if ((count1 == board.length) || (count2 == board.length)) {

@@ -6,7 +6,7 @@ public class Converter {
     }
 
     public static int rubleToDollar(int value) {
-        return value /60;
+        return value / 60;
     }
 
     public static int euroToRuble(int euro) {
@@ -23,8 +23,8 @@ public class Converter {
         int dollar = rubleToDollar(140);
         System.out.println("140 rubles are " + dollar + " dollar.");
         int ruble = euro;
-        System.out.println( euro + "euro are " + (140) + " ruble.");
+        System.out.println(euro + "euro are " + (140) + " ruble.");
         int rubleDollar = dollar;
-        System.out.println( dollar + "dollar are " + (140) + " ruble.");
+        System.out.println(dollar + "dollar are " + (140) + " ruble.");
     }
 }

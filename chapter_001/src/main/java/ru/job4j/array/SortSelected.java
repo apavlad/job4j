@@ -15,6 +15,6 @@ public class SortSelected {
             data[index] = data[i];
             data[i] = min;    // меняем местами наименьший с data[i]
         }
-        return data ;
+        return data;
     }
 }
