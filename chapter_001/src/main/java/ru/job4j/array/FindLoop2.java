@@ -7,10 +7,8 @@ public class FindLoop2 {
             if (data[i] == el) {
                    rst = i;
                     break;
-                }
             }
-        // если элемента нет в массиве, то возвращаем -1.
-        return rst;
         }
-
+        return rst;
     }
+}

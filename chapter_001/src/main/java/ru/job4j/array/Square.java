@@ -7,5 +7,5 @@ public class Square {
           arrey[i] = (int) Math.pow(i + 1, 2);
         }
               return arrey;
-    }
+   }
 }

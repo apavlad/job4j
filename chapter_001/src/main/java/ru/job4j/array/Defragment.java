@@ -6,7 +6,6 @@ public class Defragment {
             String cell = array[index];
             if (cell == null) {
                 int k = index - 1;
-
                 while (k < array.length && array[index] == null) {
                     k++;
                     if (k < array.length) {
@@ -17,11 +16,8 @@ public class Defragment {
             }
             System.out.print(array[index] + " ");
         }
-
         return array;
     }
-
-
             public static void main(String[]args) {
                 String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
                 String[] compressed = compress(input);

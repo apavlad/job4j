@@ -3,7 +3,6 @@ package ru.job4j.sort;
 import java.util.Arrays;
 
 public class Merge {
-
     public int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];
         int i = 0, j = 0, k = 0;
@@ -17,13 +16,11 @@ public class Merge {
             }
             k++;
         }
-
         while (i < left.length) {
             rsl[k] = left[i];
             i++;
             k++;
         }
-
         while (j < right.length) {
             rsl[k] = right[j];
             j++;
@@ -31,7 +28,6 @@ public class Merge {
         }
         return rsl;
     }
-
     public static void main(String[] args) {
         Merge process = new Merge();
         int[] rsl = process.merge(

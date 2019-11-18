@@ -6,11 +6,8 @@ public class Min {
         for (int index = 0; index < array.length; index++) {
             if (array[index] < min) {
                 min = array[index];
-                                             // проверить, что эталон больше, чем элемент. записать в эталон элемент массива.
             }
-
         }
-
         return min;
     }
 }
