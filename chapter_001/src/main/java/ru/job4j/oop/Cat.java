@@ -1,19 +1,24 @@
 package ru.job4j.oop;
 
 public class Cat {
-    private String barsik;
+    private String food;
+    private String name;
+
     public void show() {
-        System.out.println(this.barsik);
+        System.out.println(this.name);
+        System.out.println(this.food);
     }
-
+    public void eat(String meat) {
+        this.food = meat;
+    }
     public void giveNick(String nick) {
-        this.barsik = nick;
+        this.name = nick;
     }
-
     public static void main(String[] args) {
-        System.out.println("Барсик съел.");
-        Cat barsik = new Cat();
-        barsik.giveNick("котлету");
-        barsik.show();
+            Cat gav = new Cat();
+            System.out.println("Съел с утра");
+            gav.giveNick("Барсик");
+            gav.eat("котлету");
+            gav.show();
     }
 }
