@@ -20,9 +20,9 @@ public class Triangle {
 
     public double area() {
         double rsl = -1;
-        double ab = a.distance(b);
-        double bc = b.distance(c);
-        double ca = c.distance(a);
+        double ab = a.distance3d(b);
+        double bc = b.distance3d(c);
+        double ca = c.distance3d(a);
         double p = period(ab, bc, ca);
         if (this.exist(ab, bc, ca)) {
             return sqrt(p * (p - ab) * (p - bc) * (p - ca));
