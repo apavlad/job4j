@@ -23,11 +23,7 @@ public class Calculator {
         double result = first - second;
         System.out.println(first + "-" + second + "=" + result);
     }
-    /**
-     * Калькулятор, вывод строки результата в консоль.
-     * @param args
-     */
-    public static void main(String[] args) {
+     public static void main(String[] args) {
             add(1, 1);
             div(4, 2);
             multiply(2, 1);
