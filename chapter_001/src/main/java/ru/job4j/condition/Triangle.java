@@ -31,7 +31,7 @@ public class Triangle {
     }
 
     public static boolean exist(double a, double c, double b) {
-        return ((a + b) > c && (b + c) > a && (a + c) > b) {
+        return ((a + b) > c && (b + c) > a && (a + c) > b);
 
     }
 }
