@@ -30,7 +30,7 @@ public class SqMaxTest {
     public void whenForthMax() {
         SqMax check = new SqMax();
         int result = check.max(4, 2, 3, 5);
-        assertThat(result, is(5));
+        assertThat(result, is(4));
     }
 
 }
