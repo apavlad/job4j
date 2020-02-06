@@ -3,7 +3,8 @@ package ru.job4j.trecker;
 public class Item {
     String name;
     public Item() {
-
+    }
+    public Item(String name) {
     }
     void nameClass() {
 
