@@ -7,10 +7,8 @@ public class Item {
     public Item(String name) {
     }
     void nameClass() {
-
         System.out.println("Класс " + name);
     }
-
     public static void main(String[] args) {
         Animal animal = new Animal();
         animal.name = "Animal";
@@ -24,6 +22,5 @@ public class Item {
         Tiger tiger = new Tiger();
         tiger.name = "Tiger";
         tiger.nameClass();
-
     }
 }
