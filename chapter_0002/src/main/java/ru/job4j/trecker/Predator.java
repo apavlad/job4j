@@ -5,4 +5,7 @@ public class Predator extends Item {
         super();
         String name = "Predator";
     }
+    public Predator(String name) {
+        super(name);
+    }
 }

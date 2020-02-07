@@ -5,5 +5,8 @@ public class Animal extends Item {
         super();
         String name = "Animal";
     }
+    public Animal(String name) {
+        super(name);
+    }
 }
 
