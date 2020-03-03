@@ -30,6 +30,4 @@ public class Student {
     public Date getReceipt() {
         return receipt;
     }
-
-
 }
