@@ -9,8 +9,6 @@ public class College {
         student.setGroup("12A");
         student.setReceipt(new Date());
         String nl = System.lineSeparator();
-        System.out.println(student.getFio() + nl + student.getGroup() + nl + student.getReceipt() );
-
-
+        System.out.println(student.getFio() + nl + student.getGroup() + nl + student.getReceipt());
     }
 }
