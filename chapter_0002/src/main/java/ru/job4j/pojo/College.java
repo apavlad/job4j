@@ -8,7 +8,9 @@ public class College {
         student.setFio("Ivan Ivanov");
         student.setGroup("12A");
         student.setReceipt(new Date());
-        System.out.println(student.getFio() + "\n" + student.getGroup() + "\n" + student.getReceipt() );
+        String nl = System.lineSeparator();
+        System.out.println(student.getFio() + nl + student.getGroup() + nl + student.getReceipt() );
+
 
     }
 }
