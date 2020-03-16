@@ -15,6 +15,7 @@ public class Library {
             Book bk = books[index];
             System.out.println(bk.getName() + " - " + bk.getPages());
         }
+        System.out.println();
         Book tmp = books[0];
         books[0] = books[3];
         books[3] = tmp;
@@ -23,8 +24,11 @@ public class Library {
             System.out.println(bk.getName() + " - " + bk.getPages());
         }
         System.out.println();
-        if(books[0].equals(tmp)) {
-            System.out.println(tmp.getName());
+        for (int index = 0; index < books.length; index++) {
+            if (books[index].getName().equals("Clean code")) {
+                System.out.println(books[index].getName());
+            }
+
         }
     }
 }
