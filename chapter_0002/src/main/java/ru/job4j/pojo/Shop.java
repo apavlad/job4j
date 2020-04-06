@@ -32,18 +32,6 @@ public class Shop {
         }
 
         System.out.println();
-        public Product[] delete(Product[] int index) {
-            for (index = 0; index < products.length; index++) {
-                products[index] = products[index + 1];
-                if (products != null) {
-                    System.out.println(products.getName());
-                } else {
-                    System.out.println("null");
-                }
-            }
-            products[products.lenght - 1] = null;
-        }
-
         for (int i = 0; i < products.length; i++) {
             Product product = products[i];
             //проверяем, что объект не равен null. так как  у нас массив не заполнен целиком.
@@ -54,4 +42,16 @@ public class Shop {
             }
         }
     }
+}
+    public Product[] delete(Product[], int index) {
+        for (index = 0; index < products.length; index++) {
+            products[index] = products[index + 1];
+            if (products != null) {
+                System.out.println(products[index].getName());
+            } else {
+                System.out.println("null");
+            }
+        }
+        products[products.lenght - 1] = null;
+             return prodacts;
 }
