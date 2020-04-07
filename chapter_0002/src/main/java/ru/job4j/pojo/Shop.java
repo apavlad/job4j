@@ -42,7 +42,6 @@ public class Shop {
             }
         }
     }
-
     public Product[] delete(Product[], int index) {
         for (index = 0; index < products.length; index++) {
             products[index] = products[index + 1];
