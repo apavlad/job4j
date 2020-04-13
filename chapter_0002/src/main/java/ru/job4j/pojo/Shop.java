@@ -42,16 +42,12 @@ public class Shop {
             }
         }
     }
-    public Product[] delete(Product[], int index) {
-        for (index = 0; index < products.length; index++) {
-            products[index] = products[index + 1];
-            if (products != null) {
-                System.out.println(products[index].getName());
-            } else {
-                System.out.println("null");
-            }
+    public Product[] delete(Product[] products, int index) {
+        products[index] = null;
+        for (int i = index; i < products.length - 1; i++) {
+            products[i] = products[i + 1];
         }
-        products[products.lenght - 1] = null;
-        return prodacts;
+        products[products.length - 1] = null;
+        return products;
     }
 }
