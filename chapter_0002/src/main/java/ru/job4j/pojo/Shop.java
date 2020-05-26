@@ -17,7 +17,17 @@ public class Shop {
         products[2] = new Product("Egg", 19);
         for (int index = 0; index < products.length; index++) {
             Product pr = products[index];
-            System.out.println(pr.getName() + " - " + pr.getCount());
+            if (pr != null) {
+                System.out.println(pr.getName() + " - " + pr.getCount());
+            }
+        }
+        System.out.println();
+        delete(Product[] products, 0);
+        for (int index = 0; index < products.length; index++) {
+            Product pr = products[index];
+            if (pr != null) {
+                System.out.println(pr.getName() + " - " + pr.getCount());
+            }
         }
     }
 
