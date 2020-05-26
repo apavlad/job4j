@@ -22,7 +22,7 @@ public class Shop {
             }
         }
         System.out.println();
-        delete(Product[] products, 0);
+        Product[] delete(Product[] products, 0);
         for (int index = 0; index < products.length; index++) {
             Product pr = products[index];
             if (pr != null) {
