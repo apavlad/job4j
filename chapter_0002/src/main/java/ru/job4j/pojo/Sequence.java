@@ -1,10 +1,12 @@
 package ru.job4j.pojo;
 
 public class Sequence {
+
     public static int[] m = {1,2,2,3,4,4,4,4,5};
     public static int pCh[] = new int[m.length];
     public static int ts;
     public static int[] n = new int[m.length];
+
     public static void main(String[] args) {
         int k = 0, ch;
         for(ts = 0; ts<m.length; ts++){
@@ -26,6 +28,7 @@ public class Sequence {
 
         }
     }
+
     static boolean povtor(int x){
         for(int a = 0; a<ts;a++){
             if (pCh[a]==x) return true;
